@@ -1,0 +1,3 @@
+#! /bin/bash
+
+./besu-23.10.0/bin/besu --data-path=./Node-2/database --genesis-file=./genesis.json --node-private-key-file=./Node-2/data/key --bootnodes=enode://665fda7d2e758d69a2fb90f8dd54586b58470bcaace97485e0baee265aa67aab2d970434bf5dfdd78415d8e06b78fc8fa12f02d46517b63af0ce3c8714ed95ac@127.0.0.1:30303 --network-id 55555 --p2p-port=30304 --rpc-http-enabled --rpc-http-api=ETH,NET,CLIQUE --host-allowlist="*" --rpc-http-cors-origins="all" --rpc-http-port=8546 --tx-pool-max-future-by-sender=2000
